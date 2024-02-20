@@ -1,0 +1,11 @@
+
+
+1. Clone project
+2. publish database
+3. Install entityframeworkcore, entityframeworkCoreTools if not already installed
+4. run scaffold command to genenrate models : Scaffold-DbContext 'YourConnectionString' Microsoft.EntityFrameworkCore.SqlServer -OutputDir Entities. You can get connection string during publish of database
+
+e.g Scaffold-DbContext 'Data Source=IPNX-IKJ-IST-05\SQLEXPRESS;Integrated Security=True;Database=ipNXCoverage;Persist Security Info=False;Pooling=False;Multiple
+Active Result Sets=False;Connect Timeout=60;Encrypt=True;Trust Server Certificate=True;Command Timeout=0' Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+5. run solution.

@@ -22,9 +22,7 @@ namespace Api.Controllers
         public async Task<IActionResult> CheckNetworkCoverage(double userLatitude, double userLongitude)
         {
             try
-            {
-                
-                
+            {                
                 bool isInCoverageArea = await _coverageService.IsInCoverageAreaAsync(userLatitude, userLongitude);
                 if (isInCoverageArea)
                 {
