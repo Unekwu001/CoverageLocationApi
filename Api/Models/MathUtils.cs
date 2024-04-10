@@ -10,7 +10,7 @@
             return degrees * Deg2Rad;
         }
 
-        public const double CoverageRadiusInMeters = 1000;
+        public const double CoverageRadiusInMeters = 5000;
     }
 
 }

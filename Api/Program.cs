@@ -1,5 +1,7 @@
 using Api.Models;
-using Api.Service;
+using ipNXSalesPortalApis.Services.GoogleServices;
+using ipNXSalesPortalApis.Services.SalesPortalServices;
+using ipNXSalesPortalApis.Services.GoogleServices;
 using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 
@@ -7,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddScoped<ICoverageService, CoverageService>();
+builder.Services.AddScoped<IGoogleGeoCodingService, GoogleGeoCodingService>();
 
 
 // Database connection and Identity configuration

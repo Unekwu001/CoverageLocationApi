@@ -5,7 +5,7 @@ using System.Drawing;
 using System.Text.RegularExpressions;
 using System.Reflection;
 
-namespace Api.Service
+namespace ipNXSalesPortalApis.Services.SalesPortalServices
 {
     public class CoverageService : ICoverageService
     {
@@ -90,7 +90,7 @@ namespace Api.Service
             return distance;
         }
 
-        private bool AreClose(double value1, double value2, double tolerance = 50)
+        private bool AreClose(double value1, double value2, double tolerance = 0.1)
         {
             return Math.Abs(value1 - value2) < tolerance;
         }
