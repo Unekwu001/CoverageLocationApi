@@ -9,4 +9,7 @@ Post-Deployment Script Template
                SELECT * FROM [$(TableName)]					
 --------------------------------------------------------------------------------------
 */
-:r .\"CoverageLocationsData.sql"
+
+
+--:r .\Data\"GeoCodingApiKeyData.sql"
+--:r .\Data\"CoverageLocationsData.sql"

@@ -1,11 +1,11 @@
-﻿using Api.Models;
+﻿using ipNXSalesPortalApis.Models;
 using ipNXSalesPortalApis.Dtos;
 using ipNXSalesPortalApis.Services.GoogleServices;
 using ipNXSalesPortalApis.Services.SalesPortalServices;
 using Microsoft.AspNetCore.Mvc;
 using SalesPortalApis.Dtos;
 
-namespace Api.Controllers
+namespace ipNXSalesPortalApis.Controllers
 {
 
     [Route("api/[controller]")]

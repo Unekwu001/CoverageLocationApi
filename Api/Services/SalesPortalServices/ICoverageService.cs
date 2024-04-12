@@ -1,4 +1,4 @@
-﻿using Api.Models;
+﻿using ipNXSalesPortalApis.Models;
 
 namespace ipNXSalesPortalApis.Services.SalesPortalServices
 {

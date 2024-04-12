@@ -1,13 +1,12 @@
-using Api.Models;
+using ipNXSalesPortalApis.Models;
 using ipNXSalesPortalApis.Services.GoogleServices;
 using ipNXSalesPortalApis.Services.SalesPortalServices;
-using ipNXSalesPortalApis.Services.GoogleServices;
 using Microsoft.EntityFrameworkCore;
 using System.Globalization;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+//Add services to the container.
 builder.Services.AddScoped<ICoverageService, CoverageService>();
 builder.Services.AddScoped<IGoogleGeoCodingService, GoogleGeoCodingService>();
 
@@ -19,13 +18,12 @@ builder.Services.AddDbContext<CoverageDbContext>(options =>
 
 
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+//Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

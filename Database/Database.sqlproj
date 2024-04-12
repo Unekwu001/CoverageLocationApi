@@ -56,12 +56,20 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Data" />
+    <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="CoverageLocationsTable.sql" />
-    <None Include="CoverageLocationsData.sql" />
+    <None Include="Data\CoverageLocationsData.sql" />
   </ItemGroup>
   <ItemGroup>
-    <PostDeploy Include="Script.PostDeployment.sql" />
+    <None Include="Data\GeoCodingApiKeyData.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\CoverageLocationsTable.sql" />
+    <Build Include="Tables\GeoCodingApiKeyTable.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment1.sql" />
   </ItemGroup>
 </Project>

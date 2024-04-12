@@ -1,0 +1,9 @@
+﻿DELETE FROM dbo.GCPGeoCodingApiKey
+
+SET IDENTITY_INSERT dbo.GCPGeoCodingApiKey ON 
+
+  
+INSERT INTO dbo.GCPGeoCodingApiKey([Id], [Key])
+VALUES (1, 'AIzaSyBOTyvpxj5teECXPTXV5kHvNuhUK18PnBQ')
+
+SET IDENTITY_INSERT dbo.GCPGeoCodingApiKey OFF

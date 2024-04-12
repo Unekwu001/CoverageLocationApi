@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Api.Models;
+namespace ipNXSalesPortalApis.Models;
 
 public partial class CoverageLocation
 {
@@ -13,7 +13,7 @@ public partial class CoverageLocation
 
     public string Lga { get; set; } = null!;
 
-    public double Longitude { get; set; } 
+    public double Longitude { get; set; }
 
-    public double Latitude { get; set; } 
+    public double Latitude { get; set; }
 }

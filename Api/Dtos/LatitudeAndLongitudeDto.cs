@@ -1,4 +1,4 @@
-﻿using Api.Models;
+﻿using ipNXSalesPortalApis.Models;
 using System.ComponentModel.DataAnnotations;
 
 namespace SalesPortalApis.Dtos

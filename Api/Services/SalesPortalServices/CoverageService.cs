@@ -1,4 +1,4 @@
-﻿using Api.Models;
+﻿using ipNXSalesPortalApis.Models;
 using Microsoft.EntityFrameworkCore;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using System.Drawing;

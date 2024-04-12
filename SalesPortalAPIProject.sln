@@ -7,10 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ipNXSalesPortalApis", "Api\
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database", "Database\Database.sqlproj", "{2C772CC1-EDFE-48E1-8007-06C4C7A9AF82}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7996EB1C-17D0-4E79-BAA1-C88E94111BD1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{7996EB1C-17D0-4E79-BAA1-C88E94111BD1}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\Desktop\Doc -HtmlToGetUser'sCurrentLocation.txt = ..\..\..\Desktop\Doc -HtmlToGetUser'sCurrentLocation.txt
-		Documentation.txt = Documentation.txt
+		How to run the project.txt = How to run the project.txt
 	EndProjectSection
 EndProject
 Global

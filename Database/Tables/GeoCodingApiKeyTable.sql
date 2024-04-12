@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[GCPGeoCodingApiKey]
+(
+	[Id] INT PRIMARY KEY IDENTITY (1, 1),
+	[Key] VARCHAR(500) NOT NULL,
+)
